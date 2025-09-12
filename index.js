@@ -11,6 +11,7 @@ app.get('/', (req, res) => {
 })
 
 
+
 app.get('/api', (req, res) => {
     res.json({ message: 'Hello from server!' });
 })
@@ -26,7 +27,7 @@ app.get('/about',(req, res) => {
     res.send("<h1>about</h1>" )
 })
 
-//////////////////////////////////////////////////////
+
 
 // server listening
 app.listen(port, () => {

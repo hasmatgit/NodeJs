@@ -22,6 +22,9 @@ app.get('/help/me',(req, res) => {
 app.get('/about/us',(req, res) => {
     res.send("<h1>We are a team of dedicated developers</h1>" )
 })
+app.get('/about',(req, res) => {
+    res.send("<h1>about</h1>" )
+})
 
 
 
